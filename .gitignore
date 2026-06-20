@@ -1,24 +1,34 @@
-# Compiled class file
-*.class
+# Node modules
+node_modules/
 
-# Log file
+# Environment variables
+.env
+
+# Logs
 *.log
+npm-debug.log*
 
-# BlueJ files
-*.ctxt
+# Build folders
+dist/
+build/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Dependency directories
+jspm_packages/
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# OS files
+.DS_Store
+Thumbs.db
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Coverage reports
+coverage/
+
+# Package lock (optional)
+# package-lock.json
